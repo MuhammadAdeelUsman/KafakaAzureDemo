@@ -1,7 +1,7 @@
 provider "azurerm" {
    subscription_id = ""
    client_id       = ""
-   client_secret   = ""
+   client_secret   = "adding secrter key"
    tenant_id       = "adding key"
  }
 locals {

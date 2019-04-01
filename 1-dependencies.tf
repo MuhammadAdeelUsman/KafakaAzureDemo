@@ -2,7 +2,7 @@ provider "azurerm" {
    subscription_id = ""
    client_id       = ""
    client_secret   = ""
-   tenant_id       = ""
+   tenant_id       = "adding key"
  }
 locals {
   virtual_machine_name = "${var.prefix}-vm"
